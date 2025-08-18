@@ -1,0 +1,6 @@
+# Config Pyhton files
+.env
+
+# IDE Files
+.venv
+.idea
