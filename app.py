@@ -69,5 +69,6 @@ def handle_audio_request():
     except KeyError as e:
         logger.error(f"Missing key in JSON data: {e}")
         return jsonify({'error': f"Missing key in JSON data: str(e)"}), 400
+
 def handle_text_request():
     """Handles text requests"""
